@@ -136,3 +136,22 @@ body::before {
     text-decoration: underline;
     color: #232324;
 }
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #535971;
+    height: 160px;
+    border-radius: 0 0 2rem 2rem;
+    margin-bottom: 36.6rem;
+}
+
+footer input {
+    background: #FF5374;
+    border-radius: 20px;
+    width: 60.8rem; 
+    height: 55.65px;
+    padding: 15px;
+}
