@@ -48,7 +48,9 @@ body::before {
 .page header p {
     font-size: 2rem;
     line-height: 3rem;
+    margin-top: 1.8rem;
     color: var(--white);
+
 }
 
 /* form */
@@ -145,13 +147,36 @@ footer {
     background: #535971;
     height: 160px;
     border-radius: 0 0 2rem 2rem;
-    margin-bottom: 36.6rem;
+    margin-bottom: 4rem;
 }
 
 footer input {
+    font-family: 'Staatliches', sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
     background: #FF5374;
     border-radius: 20px;
     width: 60.8rem; 
     height: 55.65px;
     padding: 15px;
+    transition: 0.4s;
+}
+
+footer input:hover {
+    background: #942e42;
+    cursor: pointer;
+}
+
+aside {
+    text-align: center;
+}
+
+aside a {
+    color: #444;
+    transition: 0.5s;
+}
+
+aside a:hover {
+    color: #3775ae;
 }
