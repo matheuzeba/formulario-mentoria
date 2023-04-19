@@ -40,14 +40,16 @@
                     </section>
                     <section class="input-wrapper">
                         <label for="event-email">Email <span>(digite um email válido)</span></label>
-                        <input type="text" id="event-email" placeholder="Digite o seu e-mail">
+                        <input type="email" id="event-email" placeholder="Digite o seu e-mail">
                     </section>
                     <section class="input-wrapper">
                         <label for="event-senha">Senha <span>(mínimo de 6 caracteres)</span></label>
-                        <input type="text" id="event-senha" minlength="6" placeholder="Digite sua senha">
+                        <input type="password" id="event-senha" minlength="6" placeholder="Digite sua senha">
                     </section>
                 </section>
             </fieldset>
+
+            <!-- Infomações do mentor -->
             <fieldset>
                 <section class="fieldset-wrapper">
                     <legend>Informações do mentor</legend>
@@ -57,7 +59,31 @@
                     </section>
                 </section>
             </fieldset>
+
+            <!-- Seus horários disponíveis -->
+            <fieldset>
+                <section class="fieldset-wrapper">
+                    <legend>Seus horários disponíveis</legend>
+                    <section class="col-3">
+                        <section class="input-wrapper">
+                            <label for="event-data">Data <span>(DD/MM/AAAA)</span> </label>
+                            <input type="date" id="event-data">
+                        </section>
+                        <section class="input-wrapper">
+                            <label for="event-inicio">Das</label>
+                            <input type="time" id="event-inicio">
+                        </section>
+                        <section class="input-wrapper">
+                            <label for="event-fim">Até</label>
+                            <input type="time" id="event-fim">
+                        </section>
+                    </section>
+                </section>
+            </fieldset>
         </form>
+        <footer>
+
+        </footer>
     </div>
 </body>
 </html>

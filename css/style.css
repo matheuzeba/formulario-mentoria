@@ -67,12 +67,14 @@ body::before {
 }
 
 .page #main-form .fieldset-wrapper .col-2,
+.page #main-form .fieldset-wrapper .col-3,
 .page #main-form .fieldset-wrapper {
     display: flex;
     gap: 1.6rem;
 }
 
 .page #main-form .fieldset-wrapper .col-2 .input-wrapper,
+.page #main-form .fieldset-wrapper .col-3 .input-wrapper,
 .page #main-form .fieldset-wrapper .input-wrapper {
     display: flex;
     flex-direction: column;
@@ -80,6 +82,13 @@ body::before {
 }
 
 .page #main-form .fieldset-wrapper .col-2 .input-wrapper {
+    width: 30rem;
+}
+.page #main-form .fieldset-wrapper .col-3 .input-wrapper {
+    width: 14rem
+}
+
+.page #main-form .fieldset-wrapper .col-3 > .input-wrapper:nth-child(1) {
     width: 30rem;
 }
 
