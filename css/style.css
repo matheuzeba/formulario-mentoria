@@ -16,3 +16,114 @@ body::before {
     background: var(--gray);
     z-index: -1;
 }
+
+/* centralizar e alinhar pagina */
+.page {
+    width: 75rem;
+    margin: 0 auto;
+}
+
+#main-form {
+    gap: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+/* header */
+.page header {
+    padding-top: 14rem;
+    max-width: 41.7rem;
+}
+
+.page header h1 {
+    font-family: 'Staatliches', sans-serif;
+    font-weight: 400;
+    font-size: 4.8rem;
+    line-height: 6rem;
+
+    color: var(--white);
+}
+
+
+.page header p {
+    font-size: 2rem;
+    line-height: 3rem;
+    color: var(--white);
+}
+
+/* form */
+
+.page #main-form {
+    margin-top: 5.8rem;
+    background: var(--white);
+    border-radius: 2rem 2rem 0 0;
+    padding: 6.4rem;
+}
+
+.page #main-form .fieldset-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.page #main-form .fieldset-wrapper .col-2,
+.page #main-form .fieldset-wrapper {
+    display: flex;
+    gap: 1.6rem;
+}
+
+.page #main-form .fieldset-wrapper .col-2 .input-wrapper,
+.page #main-form .fieldset-wrapper .input-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.page #main-form .fieldset-wrapper .col-2 .input-wrapper {
+    width: 30rem;
+}
+
+.input-wrapper input {
+    background: #FAFAFC;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+    height: 56px;
+    padding: 0 2rem;
+}
+
+
+.input-wrapper input::placeholder {
+    opacity: 0.5;
+}
+
+.fieldset-wrapper legend {
+    font-family: 'Staatliches', sans-serif;
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 3.4rem;
+    color: #535971;
+    padding-bottom: 1.6rem;
+    
+    border-bottom: 1px solid #E6E6F0;
+}
+
+.fieldset-wrapper .col-2 .input-wrapper label,
+.page #main-form .fieldset-wrapper .input-wrapper label {
+    font-style: normal;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+
+    color: #4E4958;
+}
+
+.fieldset-wrapper .input-wrapper span {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin-left: 0.9rem;
+    color: #96929e;
+}
+
+.fieldset-wrapper .input-wrapper span:hover {
+    text-decoration: underline;
+    color: #232324;
+}

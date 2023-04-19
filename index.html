@@ -23,6 +23,41 @@
             <h1>Mentoria</h1>
             <p>Preencha o formulário abaixo para agendar a sua mentoria</p>
         </header>
+        <form id="main-form">
+            <!-- Informações pessoais -->
+            <fieldset>
+                <section class="fieldset-wrapper">
+                    <legend>Informações pessoais</legend>
+                    <section class="col-2">
+                        <section class="input-wrapper">
+                            <label for="event-nome">Nome</label>
+                            <input type="text" id="event-nome" placeholder="digite seu nome">
+                        </section>
+                        <section class="input-wrapper">
+                            <label for="event-sobrenome">Sobrenome</label>
+                            <input type="text" id="event-sobrenome" placeholder="Digite sue sobrenome">
+                        </section>
+                    </section>
+                    <section class="input-wrapper">
+                        <label for="event-email">Email <span>(digite um email válido)</span></label>
+                        <input type="text" id="event-email" placeholder="Digite o seu e-mail">
+                    </section>
+                    <section class="input-wrapper">
+                        <label for="event-senha">Senha <span>(mínimo de 6 caracteres)</span></label>
+                        <input type="text" id="event-senha" minlength="6" placeholder="Digite sua senha">
+                    </section>
+                </section>
+            </fieldset>
+            <fieldset>
+                <section class="fieldset-wrapper">
+                    <legend>Informações do mentor</legend>
+                    <section class="input-wrapper">
+                        <label for="event-mentor">Nome do seu mentor <span>(só o primeiro nome)</span></label>
+                        <input type="text" id="event-mentor" placeholder="Digite o nome do se mentor">
+                    </section>
+                </section>
+            </fieldset>
+        </form>
     </div>
 </body>
 </html>
