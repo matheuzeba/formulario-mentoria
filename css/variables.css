@@ -1,6 +1,14 @@
 :root {
     --bg: #E5E5E5;
     --gray: #535971;
-
+    --legend-border: #E6E6F0;
+    --label-color: #4E4958;
+    --span: #96929e;
     --white: #fff;
+    --span-hover: #232324;
+    --footer-input: #FF5374;
+    --footer-input-hover: #942e42;
+
+    --input-bg: #FAFAFC;
+    --input-border: #E6E6F0;
 }

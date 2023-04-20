@@ -23,12 +23,6 @@ body::before {
     margin: 0 auto;
 }
 
-#main-form {
-    gap: 3rem;
-    display: flex;
-    flex-direction: column;
-}
-
 /* header */
 .page header {
     padding-top: 14rem;
@@ -56,6 +50,10 @@ body::before {
 /* form */
 
 .page #main-form {
+    gap: 3rem;
+    display: flex;
+    flex-direction: column;
+
     margin-top: 5.8rem;
     background: var(--white);
     border-radius: 2rem 2rem 0 0;
@@ -95,8 +93,8 @@ body::before {
 }
 
 .input-wrapper input {
-    background: #FAFAFC;
-    border: 1px solid #E6E6F0;
+    background: var(--input-bg);
+    border: 1px solid var(--input-border);
     border-radius: 8px;
     height: 56px;
     padding: 0 2rem;
@@ -112,10 +110,10 @@ body::before {
     font-weight: 400;
     font-size: 2.4rem;
     line-height: 3.4rem;
-    color: #535971;
+    color: var(--gray);
     padding-bottom: 1.6rem;
     
-    border-bottom: 1px solid #E6E6F0;
+    border-bottom: 1px solid var(--legend-border);
 }
 
 .fieldset-wrapper .col-2 .input-wrapper label,
@@ -124,27 +122,27 @@ body::before {
     font-size: 1.4rem;
     line-height: 2.4rem;
 
-    color: #4E4958;
+    color: var(--label-color);
 }
 
 .fieldset-wrapper .input-wrapper span {
     font-size: 1.2rem;
     line-height: 2rem;
     margin-left: 0.9rem;
-    color: #96929e;
+    color: var(--span);
 }
 
 .fieldset-wrapper .input-wrapper span:hover {
     text-decoration: underline;
-    color: #232324;
+    color: var(--span-hover);
 }
 
-
+/* BOTAO DE INPUT */
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #535971;
+    background: var(--gray);
     height: 160px;
     border-radius: 0 0 2rem 2rem;
     margin-bottom: 4rem;
@@ -154,8 +152,8 @@ footer input {
     font-family: 'Staatliches', sans-serif;
     font-size: 20px;
     line-height: 26px;
-    color: #FFFFFF;
-    background: #FF5374;
+    color: var(--white);
+    background: var(--footer-input);
     border-radius: 20px;
     width: 60.8rem; 
     height: 55.65px;
@@ -164,10 +162,11 @@ footer input {
 }
 
 footer input:hover {
-    background: #942e42;
+    background: var(--footer-input-hover);
     cursor: pointer;
 }
 
+/* Criado por Matheus Tavares Viana */
 aside {
     text-align: center;
 }
