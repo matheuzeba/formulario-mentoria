@@ -29,21 +29,21 @@
                     <legend>Informações pessoais</legend>
                     <section class="col-2">
                         <section class="input-wrapper">
-                            <label for="event-nome">Nome</label>
-                            <input type="text" id="event-nome" placeholder="digite seu nome">
+                            <label for="event-nome">Nome *</label>
+                            <input type="text" id="event-nome" placeholder="digite seu nome" required>
                         </section>
                         <section class="input-wrapper">
-                            <label for="event-sobrenome">Sobrenome</label>
-                            <input type="text" id="event-sobrenome" placeholder="Digite sue sobrenome">
+                            <label for="event-sobrenome">Sobrenome *</label>
+                            <input type="text" id="event-sobrenome" placeholder="Digite seu sobrenome" required>
                         </section>
                     </section>
                     <section class="input-wrapper">
-                        <label for="event-email">Email <span>(digite um email válido)</span></label>
-                        <input type="email" id="event-email" placeholder="Digite o seu e-mail">
+                        <label for="event-email">Email *<span>(digite um email válido)</span></label >
+                        <input type="email" id="event-email" placeholder="Digite o seu e-mail" required>
                     </section>
                     <section class="input-wrapper">
-                        <label for="event-senha">Senha <span>(mínimo de 6 caracteres)</span></label>
-                        <input type="password" id="event-senha" minlength="6" placeholder="Digite sua senha">
+                        <label for="event-senha">Senha *<span>(mínimo de 6 caracteres)</span></label>
+                        <input type="password" id="event-senha" minlength="6" placeholder="Digite sua senha" required>
                     </section>
                 </section>
             </fieldset>
@@ -53,8 +53,8 @@
                 <section class="fieldset-wrapper">
                     <legend>Informações do mentor</legend>
                     <section class="input-wrapper">
-                        <label for="event-mentor">Nome do seu mentor <span>(só o primeiro nome)</span></label>
-                        <input type="text" id="event-mentor" placeholder="Digite o nome do se mentor">
+                        <label for="event-mentor">Nome do seu mentor * <span>(só o primeiro nome)</span></label>
+                        <input type="text" id="event-mentor" placeholder="Digite o nome do seu mentor" required>
                     </section>
                 </section>
             </fieldset>
@@ -67,18 +67,18 @@
 
                         <section class="input-wrapper">
                             <section class="sub-legend">
-                                <legend>Primeira mentoria</legend>
+                                <legend>Primeira mentoria *</legend>
                             </section>
                             <label for="event-data-primeiro">Data <span>(DD/MM/AAAA)</span> </label>
-                            <input type="date" id="event-data-primeiro">
+                            <input type="date" id="event-data-primeiro" required>
                         </section>
                         <section class="input-wrapper">
                             <label for="event-inicio-primeiro">Das</label>
-                            <input type="time" id="event-inicio-primeiro">
+                            <input type="time" id="event-inicio-primeiro" required>
                         </section>
                         <section class="input-wrapper">
                             <label for="event-fim-primeiro">Até</label>
-                            <input type="time" id="event-fim-primeiro">
+                            <input type="time" id="event-fim-primeiro" required>
                         </section>
                     </section>
                     <section class="col-3">
@@ -104,7 +104,7 @@
             </fieldset>
         </form>
         <footer>
-            <input type="button" value="Salvar" form="main-form">
+            <input type="submit" value="Salvar" form="main-form" >
         </footer>
         <aside>
             <p>Criado por <a href="https://github.com/matheuzeba/" target="_blank">Matheus Tavares Viana</a></p>

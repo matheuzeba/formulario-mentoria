@@ -197,3 +197,7 @@ aside a {
 aside a:hover {
     color: #3775ae;
 }
+
+input:invalid {
+    border: 1px solid red;
+}
