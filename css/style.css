@@ -115,6 +115,24 @@ body::before {
     
     border-bottom: 1px solid var(--legend-border);
 }
+.page #main-form .fieldset-wrapper .col-3 .input-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    justify-content: flex-end;
+}
+
+.fieldset-wrapper .col-3 .input-wrapper .sub-legend legend {
+    font-family: 'Staatliches', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3.4rem;
+    color: var(--gray);
+    padding: 0;
+    border: none;
+}
+
+
 
 .fieldset-wrapper .col-2 .input-wrapper label,
 .page #main-form .fieldset-wrapper .input-wrapper label {
